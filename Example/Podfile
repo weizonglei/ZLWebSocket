@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZLWebSocket_Tests' do
+  pod 'ZLWebSocket', :path => '../'
+  
+  
+end

@@ -1,0 +1,6 @@
+framework module ZLWebSocket {
+  umbrella header "ZLWebSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
