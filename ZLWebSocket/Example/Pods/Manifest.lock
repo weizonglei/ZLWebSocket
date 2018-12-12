@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.7)
+  - MJExtension (3.0.15.1)
+  - Protobuf (3.6.1)
+  - SocketRocket (0.5.1)
+  - ZLWebSocket (0.1.0):
+    - AFNetworking (~> 3.0)
+    - AliyunOSSiOS
+    - MJExtension (~> 3.0.9)
+    - Protobuf
+    - SocketRocket
+
+DEPENDENCIES:
+  - ZLWebSocket (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - MJExtension
+    - Protobuf
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  ZLWebSocket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  ZLWebSocket: e879892d32f7992337a983f61ab13a3308ee480e
+
+PODFILE CHECKSUM: 62e48131b46ce13146cf185479723c0acaf238cb
+
+COCOAPODS: 1.6.0.beta.2
